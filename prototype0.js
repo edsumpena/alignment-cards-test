@@ -15,7 +15,7 @@ export const cards = [
     "name": "Specification Alignment",
     "definition": "Ensuring that formal objectives (like reward functions) match true human goals.",
     "failureMode": "The proxy (e.g. score) is easier to specify than the real objective (e.g. race performance).",
-    "example": "A model optimized for game score and got unintended, exploitative behavior."
+    "example": "Amodei optimized for game score and got unintended, exploitative behavior."
   },
   {
     "name": "Value Alignment",
@@ -29,4 +29,4 @@ export const cards = [
     "failureMode": "Opaque systems make high-stakes decisions without accountability or recourse.",
     "example": "Judges using closed-source risk scores with no explanation or audit."
   }
-];
+]
